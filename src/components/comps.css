@@ -1,0 +1,134 @@
+.middle{
+    display: flex;
+    align-items: top;
+    justify-content: left;
+    height: 95vh;
+   
+}
+.message{
+    flex: 4;
+   
+   
+   
+}
+.message .status{
+    margin-left: 20%;;
+    width: 60%;
+    text-align: center;
+    margin-top: 5vh;
+    padding: 10px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+    gap: 10px;
+}
+.message .status img{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid green;
+}
+.message .message-cont{
+    display: flex;
+    margin-top: 10%;
+
+    justify-content: space-evenly;
+}
+.sidebar{
+    flex: 1;
+   
+    height:100%;
+    background-color: #2f2d52;;
+   color:white;
+    padding:10px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.sidebar
+
+.logout{
+    position: absolute;
+    top:90%;
+}
+.mail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mail button{
+    color: white;
+    background-color:navy;
+}
+.mail button:hover{
+    background-color: navy;
+}
+.mail-history{
+    width: 60%;
+    height: 70%;
+    margin-left: 20%;
+    
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+      overflow: scroll;
+
+}
+.subhistory{
+    display: flex;
+    gap:20px;
+    margin-bottom: 20px;
+  
+}
+.subhistory .subInfo{
+    display: flex;
+    flex-direction: column;
+    color: gray;
+    font-weight: 300;
+  
+}
+.subhistory .subInfo img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    object-fit: cover;
+
+}
+.subhistory .subContent{
+    max-width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap:10px
+}
+.subhistory .subContent .txt{
+    background-color: lightgray;
+    padding: 10px 20px;
+    border-radius: 0px 10px 10px 10px;
+
+}
+.owner{
+    flex-direction: row-reverse;
+  
+  }
+  .owner .subContent  .txt{
+
+    background-color: #2f2d52;
+    color: white;
+    border-radius: 10px 0px 10px 10px;
+  
+
+  }
+
+  .circle-profile{
+    background-color:gray;
+    height:40px;
+    width:40px;
+    border-radius:20px;
+     display:flex;
+     justify-content:center;
+      align-items:center;
+     border:1px solid gray;
+      color:white;
+
+  }
+
+
+  /*#3e3c61 **/

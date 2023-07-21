@@ -114,7 +114,7 @@ const unsubscribe = onSnapshot(q, (querySnapshot) => {
     
       <ul class="navbar-nav me-auto mb-2 mb-lg-0" style={{marginLeft:"10vw"}}>
       <li class="nav-item">
-          <a class="nav-link" href="#">Home</a>
+          <Link class="nav-link"  to="/login">Home</Link>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Help?</a>

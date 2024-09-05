@@ -117,21 +117,18 @@ function Notification() {
   <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="promotion" onClick={(e)=>setFilt(e.target.value) } />
   <label class="form-check-label" for="inlineRadio2">Promotion</label>
 </div>
-<div class="form-check form-check-inline">
-  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="announcement" onClick={(e)=>setFilt(e.target.value)}/>
-  <label class="form-check-label" for="inlineRadio3">Annauncement</label>
-</div>
+
 <div class="form-check form-check-inline">
   <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4" value="all" onClick={(e)=>setFilt(null)} />
   <label class="form-check-label" for="inlineRadio4">All</label>
 </div>
    </div>
       
-        <div className='head-cont'>
+        <div className='head-cont '>
            
          <input type="text" placeholder='What do you want to talk ..'  className='talk-input' onChange={(e)=>setInput(e.target.value)} value={input}/> <br/> 
          <div style={{display:"flex", alignItems:"center", justifyContent:"space-between"}}>
-            <div style={{display:"flex", gap:"20px", justifyContent:'center', alignItems:"center"}}>
+            <div style={{display:"flex", mt:"40px", gap:"20px", justifyContent:'center', alignItems:"center"}}>
               <input type="file" id="file" style={{display:"none"}}  onChange={(e)=>setImg(e.target.files[0])} />  
               <label htmlFor='file'>
               <i class="fa-solid fa-image" style={{color:"navy",fontSize:'25px'}}></i> <span>Photo</span>
@@ -158,7 +155,6 @@ function Notification() {
 
          <button className='btn' style={{backgroundColor:"navy", color:"white"}} onClick={handlePost}>Post</button>
          </div>
-        
         
         </div>
        

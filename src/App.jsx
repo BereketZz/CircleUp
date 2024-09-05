@@ -30,7 +30,7 @@ function App() {
     
       <Routes>
        
-    <Route path='/' element={<NavBar/>} />
+    {/* <Route path='/' element={<NavBar/>} /> */}
      <Route path='/dash' element={<Whole/>} >
      
         {/* <Route index  element={<Mail/>} /> */}
@@ -42,7 +42,7 @@ function App() {
     
       </Route> 
       <Route path="/login" element={<Login/>}/>
-      <Route path="/register" element ={<Register/>} />
+      <Route path="/" element ={<Register/>} />
      
      
     </Routes>
